@@ -36,7 +36,7 @@ steps:
   - title: Introduction to transfer learning and model deployment.
     description: 'ResNet-50 and ResNet-25.'
     event: issues.assigned
-    link: '{{ https://github.com/Sumit-ai/RNN-and-LSTM }}'
+    link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
 
