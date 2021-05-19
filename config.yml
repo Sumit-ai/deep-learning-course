@@ -27,13 +27,13 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
-- title: RNN and LSTM.
+  - title: RNN and LSTM.
     description: 'Natural Language processing '
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
-- title: Introduction to transfer learning and model deployment.
+  - title: Introduction to transfer learning and model deployment.
     description: 'ResNet-50 and ResNet-25.'
     event: issues.assigned
     link: '{{ repoUrl }}'
