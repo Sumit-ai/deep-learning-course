@@ -8,25 +8,36 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: Deep Learning Intro
+  - title: Deep Learning Introduction. 
     description: 'Introduction to the IDE (Integrated Development Environment)'
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
-  - title: Introduction to python and Deep Learning libraries
+  - title: Introduction to python and Deep Learning libraries.
     description: 'Tensorflow, Pandas, Numpy. matplotlib (small introduction)'
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
-  - title: Segmentation and detection using Tensorflow and making masks uing ITK snap
+  - title: Segmentation and detection using Tensorflow and making masks uing ITK snap.
     description: 'Convolutional neural network (CNN) and ITK SNAP'
     video: 'https://youtube.com/embed/c_hG1t9KVf4'
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
-
+- title: RNN and LSTM.
+    description: 'Natural Language processing '
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+- title: Introduction to transfer learning and model deployment.
+    description: 'ResNet-50 and ResNet-25.'
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
 
   
