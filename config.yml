@@ -9,19 +9,19 @@ before:
     body: new-issue.md
 steps:
   - title: Deep Learning Intro
-    description: Introduction to the IDE (Integrated Development Environment):
+    description: 'Introduction to the IDE (Integrated Development Environment)'
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
   - title: Introduction to python and Deep Learning libraries
-    description: Tensorflow, Pandas, Numpy. matplotlib (small introduction)
+    description: 'Tensorflow, Pandas, Numpy. matplotlib (small introduction)'
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
   - title: Segmentation and detection using Tensorflow and making masks uing ITK snap
-    description: Convolutional neural network (CNN). 
+    description: 'Convolutional neural network (CNN) and ITK SNAP'
     video: 'https://youtube.com/embed/c_hG1t9KVf4'
     event: issues.assigned
     link: '{{ repoUrl }}'
