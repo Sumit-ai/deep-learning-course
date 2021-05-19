@@ -20,7 +20,7 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
-  - title: First step
+  - title: third step
     description: The first step in your course
     event: issues.assigned
     link: '{{ repoUrl }}'
