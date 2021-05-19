@@ -14,3 +14,15 @@ steps:
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
+  - title: Second step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
