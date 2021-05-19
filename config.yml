@@ -1,0 +1,16 @@
+title: Deep Learning
+description: 'this course is for '
+template:
+  repo: deep-learning-template
+  name: deep-learning
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
