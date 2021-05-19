@@ -8,21 +8,10 @@ before:
     title: Welcome!
     body: new-issue.md
 steps:
-  - title: First step
+  - title: Deep Learning
     description: The first step in your course
     event: issues.assigned
     link: '{{ repoUrl }}'
     actions:
       - type: closeIssue
-  - title: Second step
-    description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
-    actions:
-      - type: closeIssue
-  - title: third step
-    description: The first step in your course
-    event: issues.assigned
-    link: '{{ repoUrl }}'
-    actions:
-      - type: closeIssue
+  
